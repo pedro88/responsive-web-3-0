@@ -92,6 +92,7 @@ hr {
 
 .container {
     margin: 6%;
+    max-width: 1110px;
 }
 
 .header_flex_container {
@@ -233,6 +234,14 @@ button {
         margin: 3%;
     }
 
+    .container {
+        margin: 0 auto;
+    }
+
+    .main {
+        padding-bottom: 50px;
+    }
+
     .header_flex_container {
         margin-bottom: 10px;
     }
@@ -266,7 +275,7 @@ button {
         grid-row: 1/2;
     }
 
-    .main_text{
+    .main_text {
         margin-bottom: 0px;
     }
 
@@ -312,9 +321,11 @@ button {
     .bottom_flex_container {
         flex-direction: row;
         justify-content: space-around;
+        padding-top: 100px;
     }
+
     .bottom_image {
-        margin:  0 auto;
+        margin: 0 auto;
         margin-left: 50px;
         margin-right: 20px;
     }
